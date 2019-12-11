@@ -1,0 +1,28 @@
+nav{
+    margin-bottom: 10px;
+}
+
+
+#headingtext{
+    font-size: 40px;
+    border-left:solid 5px red; 
+    margin-left: 30px;
+    
+}
+
+img{
+    float: left;
+    width: 30%;
+    height: 40%;
+    margin: 1.66%;
+}
+
+img:hover{
+    animation-name: trans ;
+    animation-duration: 1s;
+}
+
+@keyframes trans{
+    to{transform:translate(2px,10px);}
+}
+
